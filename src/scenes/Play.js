@@ -77,7 +77,7 @@ class Play extends Phaser.Scene {
             this.add.text(game.config.width/2, game.config.height/2 + 64, 'Press (R) to Restart or ← for Menu', scoreConfig).setOrigin(0.5);
             this.gameOver = true;
         }, null, this);
-        this.timeRight = this.add.text(borderUISize + borderPadding*40.249, borderPadding + 42.5, 'Time: ' + this.clock.getRemainingSeconds().toFixed(0), timerConfig);
+        this.timeRight = this.add.text(borderUISize + borderPadding*40.25, borderPadding + 42.5, 'Time: ' + this.clock.getRemainingSeconds().toFixed(0), timerConfig);
     }
 
     update() {
